@@ -1,5 +1,6 @@
 body {
     background-color: darkgray;
+    overflow: hidden;
 }
 
 div {
@@ -14,17 +15,35 @@ img {
 }
 
 .clicked-image {
-    height: 80%;
+    height: 100%;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
     z-index: 1;
     position: absolute;
-    top: 0px;
+    top: 0%;
 }
 
-button {
-    position: absolute;
-    top: 0px;
+#prev{
+    z-index: 2;
+    position: relative;
+    margin: 100px;
+    left: 240px;
+    top: -200px;
+}
+
+#next{
+    z-index: 2;
+    position: relative;
+    margin: 100px;
+    left: 690px;
+    top: -200px;
+}
+
+#close{
+    z-index: 2;
+    position: relative;
+    top: -800px;
+    left: 550px;
 }
 
