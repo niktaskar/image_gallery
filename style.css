@@ -1,0 +1,30 @@
+body {
+    background-color: darkgray;
+}
+
+div {
+    margin-left: 2%;
+}
+
+img {
+    width: 18%;
+    height: 18%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.clicked-image {
+    height: 80%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+}
+
+button {
+    position: absolute;
+    top: 0px;
+}
+
